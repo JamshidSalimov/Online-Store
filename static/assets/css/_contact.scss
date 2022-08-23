@@ -1,0 +1,395 @@
+.contact_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .container{
+        .row_contact{
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-bottom: 100px;
+            // Contact Title
+            .title_contact{
+                h1{
+                    margin: 0 !important;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: #141414;
+                }
+                margin-top: 36px;
+                margin-bottom: 40px;
+            }
+
+            // Only showed Mobail version 
+            .display_none{
+                display: none;
+            }
+            // Address and Map box
+            .box_address_map{
+                display: block;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                padding-right: 15px;
+                .address{
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    min-height: 176px;
+                    background: #fff;
+                    box-shadow: 0px 1px 5px rgba(208, 208, 208, 0.15);
+                    border-radius: 10px;
+                    padding: 10px 30px;
+                    margin-bottom: 40px;
+                    .img_box{
+                        padding-right: 10px;
+                    }
+                    p{
+                        font-family: sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 28px;
+                        color: #141414;
+                    }
+                }
+                .y-map{
+                    display: block;
+                    width: 100%;
+                    height: 18em;
+                }
+            }
+            // Contact and Message Box 
+            .contact_box_message{
+                display: flex;
+                width: 100%;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: column;
+                padding-left: 15px;
+
+
+                .contacts{
+                    width: 100%;
+                    min-height: 176px;
+                    .roww{
+                        display: flex;
+                        width: 100%;
+                        align-items: flex-start;
+                        justify-content: center;
+                        .boxx{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            a {
+                                width: 100%;
+                                text-decoration: none;
+                                color: rgba(20, 20, 20, 1);
+                                .contact_item {
+                                    width: 100%;
+                                    padding: 13px 27px;
+                                    background-color: #fff;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 10px;
+                                    img {
+                                        width: 25px;
+                                        height: 25px;
+                                        margin-right: 12px;
+                                    }
+                                    p {
+                                        font-family: 'Inter';
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        line-height: 24px;
+                                        color: #141414;
+                                    }
+                                }
+                                .last_box{
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                .message{
+                    .send_message {
+                        min-height: 18em;
+                        margin-top: 40px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        padding: 20px;
+                        width: 100%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        flex-direction: column;
+                        .title{
+                            width: 100%;
+                            margin-bottom: 40px;
+                            h3{
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 28px;
+                                line-height: 34px;
+                                color: #151515;
+                            }
+                        }
+                        .inputt{
+                            width: 100%;
+                            margin-bottom: 10px;
+                            input{
+                                border: none;
+                                outline: none;
+                                border-bottom: 1px solid rgba(166, 166, 166, 1);
+                                padding: 10px;
+                                width: 100%;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #6C6C6C;
+                            }
+                        }
+                        .btnn{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            button{
+                                margin-top: 20px;
+                                color: #fff;
+                                background: #F77F00;
+                                border-radius: 10px;
+                                border: none;
+                                padding: 10px 30px;
+                                font-weight: 500;
+                                font-size: 25px;
+                                line-height: 30px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    } 
+}
+@media screen and (max-device-width: 991px) {
+    .contact_page{
+        .row_contact{
+            .title_contact{
+                margin-bottom: 20px !important;
+            }
+            .display_none{
+                display: block !important;
+                .y-mapp{
+                    width: 100%;
+                    height: 20em;
+                }
+            }
+            .box_address_map{
+                display: none !important;
+            }
+            // Contact and Message Box 
+            .contact_box_message{
+                padding-left: 0 !important;
+                margin-top: 20px;
+                .contacts{
+                    width: 100%;
+                    min-height: 80px !important;
+                    .roww{
+                        .boxx{
+                            a {
+                                .contact_item {
+                                    margin-bottom: 20px !important;
+                                   
+                                }
+                            }
+                        }
+                        .box1{
+                            padding-right: 10px;
+                        }
+                        .box2{
+                            padding-left: 10px;
+                        }
+                    }
+                }
+
+
+                .message{
+                    .send_message {
+                        min-height: 18em;
+                        margin-top: 40px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        padding: 20px;
+                        width: 100%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        flex-direction: column;
+                        .title{
+                            width: 100%;
+                            margin-bottom: 40px;
+                            h3{
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 28px;
+                                line-height: 34px;
+                                color: #151515;
+                            }
+                        }
+                        .inputt{
+                            width: 100%;
+                            margin-bottom: 10px;
+                            input{
+                                border: none;
+                                outline: none;
+                                border-bottom: 1px solid rgba(166, 166, 166, 1);
+                                padding: 10px;
+                                width: 100%;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #6C6C6C;
+                            }
+                        }
+                        .btnn{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            button{
+                                margin-top: 20px;
+                                color: #fff;
+                                background: #F77F00;
+                                border-radius: 10px;
+                                border: none;
+                                padding: 10px 30px;
+                                font-weight: 500;
+                                font-size: 25px;
+                                line-height: 30px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
+
+        }
+    }
+}
+@media screen and (max-device-width: 767px) {
+    .contact_page{
+        .row_contact{
+            
+            .title_contact{
+                h1{
+                    font-size: 30px !important;
+                    line-height: 35px !important;
+                }
+                margin-top: 25px !important;
+                margin-bottom: 20px !important;
+
+            }
+            .display_none{
+                .y-mapp{
+                    width: 100%;
+                    height: 18em !important;
+                }
+            }
+            
+            // Contact and Message Box 
+            .contact_box_message{
+                padding-left: 0 !important;
+                .contacts{
+                    .roww{
+                        .boxx{
+                            padding: 0 !important;
+                            a {
+                                .contact_item {
+                                    display: flex !important;
+                                    justify-content: center !important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .message{
+                    .send_message {
+                        min-height: 16em !important;
+                        .title{
+                            margin-bottom: 30px !important;
+                            h3{
+                                font-size: 22px !important;
+                                line-height: 28px !important;
+                            }
+                        }
+                        .btnn{
+                            button{
+                                padding: 8px 30px !important;
+                                font-size: 20px !important;
+                                line-height: 25px !important;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
+
+        }
+    }
+}
+@media screen and (max-device-width: 575px) {
+    .contact_page{
+        padding: 0 10px !important;
+        .row_contact{
+
+            .title_contact{
+                h1{
+                    font-size: 25px !important;
+                    line-height: 30px !important;
+                }
+                margin-top: 23px !important;
+            }
+            // Contact and Message Box 
+            .contact_box_message{
+                
+                .message{
+                    .send_message {
+                        .btnn{
+                            button{
+                                padding: 8px 20px !important;
+                                font-size: 18px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

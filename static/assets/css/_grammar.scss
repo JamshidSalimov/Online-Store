@@ -1,0 +1,125 @@
+.grammar_page {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .book_intro {
+        background-color: #f0f8ff;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .book_img {
+        margin-top: 10px;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+    .book_txt {
+        padding: 10px;
+        p{
+            // color: #fff;
+            font-size: 18px;
+            font-style: italic;
+            line-height: 2.5rem;
+            span{
+                color: rgb(241, 50, 50);
+                font-size: 22px;
+            }
+            
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: #fff;
+        }
+        .order_button {
+            margin: auto;
+            margin-top: 30px;
+            background-color: #f77f00;
+            width: 10rem;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+    .book_info {
+        margin-bottom: 30px;
+        div {
+            p {
+                line-height: 2.5rem;
+                font-size: 20px;
+                img {
+                    width: 25px;
+                }
+            }
+        }
+    }
+
+    .book_video {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .responsive-iframe {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 56.25%;
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+    }
+    .about_teacher {
+        margin-bottom: 30px;
+        h3 {
+            margin-bottom: 20px;
+        }
+        p {
+            img {
+                width: 25px;
+            }
+            font-style: italic;
+            line-height: 30px;
+        }
+        .teacher_img {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    .order_form {
+        h3 {
+            margin-bottom: 20px;
+        }
+        .order {
+            background-color: #fff;
+            padding: 30px;
+            width: 70%;
+            margin: auto;
+        }
+        .submit_button {
+            background-color: #f77f00;
+            color: #fff;
+        }
+    }
+}
+
+//Mobile
+
+@media screen and (max-device-width: 412px) {
+    .grammar_page {
+        .order_form {
+            .order {
+                width: 100%;
+            }
+        }
+    }
+}

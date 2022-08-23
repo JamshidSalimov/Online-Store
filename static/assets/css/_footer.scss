@@ -1,0 +1,184 @@
+$primary-color: #F77F00;
+$dark-blue: #111344; 
+$footer-font-color: #fff;
+.footer{
+    background-color: $dark-blue;
+    color: $footer-font-color;
+    .footer_row{
+        padding-top: 20px;
+        padding-bottom: 60px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .social{
+            padding-top: 60px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                text-align: start;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+            .logotip1{
+                img{
+                    border: none;
+                    max-width: 140px;
+                    width: 100%;
+                }
+            }
+            .footer_text{
+                width: 100%;
+                margin-bottom: 35px;
+            }
+            .social_btn1{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: flex-start;
+                .call{
+                    margin-bottom: 15px;
+                }
+                .df_none{
+                    display: none;
+                }
+            }
+            .social_btn1 span, .social_btn1 span{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                color: #FFFFFF;
+                margin-left: 5px;
+            }
+            .social_btn0 {
+                
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+            }
+            .social_btn0 div:nth-child(1){
+                margin-right: 15px;
+            }
+            .social_btn{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                img{
+                    border: none;
+                    margin-right: 40px;
+                   
+                }
+            }
+
+        }
+        .footer_bottom{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px; 
+            padding: 0;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
+
+
+//Mobile responsive
+@media screen and (max-device-width: 991px) {
+    .footer_row{
+        padding-top: 0 !important;
+    }
+}
+@media screen and (max-device-width: 767px) {
+    .footer_row{
+        padding-bottom: 50px !important;
+        .social{
+            padding-top: 25px;
+            .footer_text{
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+            .social_btn1{
+                justify-content: center;
+                .call{
+                    margin-bottom: 5px;
+                }
+            }
+            .social_btn1 span{
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .social_btn0 {
+                justify-content: space-around;
+            }
+            .social_btn{
+                justify-content: center;
+            }
+        }
+        .footer_bottom{
+            margin-top: 20px;
+            p{
+                line-height: 20px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-device-width: 575px) {
+    .footer_row{
+        padding-bottom: 60px !important;
+        justify-content: center !important;
+        .social{
+            padding-top: 30px !important;
+            .footer_text{
+                margin-top: 20px !important;
+                margin-bottom: 25px !important;
+                text-align: start !important;
+                h2{
+                    text-align: start !important;
+                }
+            }
+            .social_btn1{
+                justify-content: center !important;
+                .df_none{
+                    display: block !important;
+                }
+            }
+            .social_btn0 {
+                width: auto;
+                justify-content: space-around !important;
+            }
+            .social_btn{
+                width: auto;
+                justify-content: center !important;
+            }
+        }
+        .footer_bottom{
+            display: none !important;
+        }
+        .desplay_nonee{
+            display: none !important;
+        }
+
+        
+    }
+}

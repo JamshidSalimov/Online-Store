@@ -1,0 +1,496 @@
+.favorits{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+     .container{
+        min-height: 60vh;
+        margin-bottom: 80px;
+        
+        .row_faworits{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            .head_title{
+                    margin: 35px 0;
+                    h2{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 40px;
+                        line-height: 48px;
+                        color: #141414;
+                        padding-left: 15px;
+                    }
+
+            }
+            .fav_main_box{
+                padding: 0 15px;
+                .main_box{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background: #FFFFFF;
+                    box-shadow: 0px 1px 5px rgba(182, 182, 182, 0.25);
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    .box_img{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 8px;
+                        position: relative;
+                        background: #f8f9fa;
+                        // padding: 0 25px;
+                        .image-flued{
+                            border-radius: 8px;
+                            width: 100%;
+                            object-fit: cover;
+                            height: 190px;
+                        }
+                        .close_btn{
+                            padding: 2px;
+                            border-radius: 0 4px 0 4px;
+                            position: absolute;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            top: 5px;
+                            right: 7px;
+                            cursor: pointer;
+                            background: #FFFFFF;
+                            z-index: 1000;
+                            img{
+                                width: 14px;
+                                height: 14px;
+                                object-fit: cover;
+                                transition: 0.3s ease all;
+                                &:hover{
+                                    width: 18px;
+                                    height: 18px;
+                                    object-fit: cover;
+
+                                }
+
+                            }
+
+                        }
+                        img{
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                        }
+                    }
+                    .box_title{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 10px 10px 20px 10px;
+                        .name_grade{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .w_70{
+                                width: 70%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                h3{
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                    color: #490D2A;
+                                }
+                            }
+                            .w_30{
+                                width: 30%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                                .star_icon{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding-right: 5px;
+                                    img{
+                                        width: 18px;
+                                        height: 18px;
+                                        object-fit: cover;
+                                    }
+                                }
+                                .grade{
+                                    h4{
+                                        font-family: 'Inter';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 18px;
+                                        color: #666666;
+                                    }
+                                }
+                            }
+                        }
+                        .sum_karzina{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-top: 12px;
+                            .w_80{
+                                width: 80%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                h3{
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #490D2A;
+                                }
+                            }
+                            .w_20{
+                                width: 20%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-end;
+                                .karzina_icon{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    cursor: pointer;
+                                    img{
+                                        width: 25px;
+                                        height: 25px;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .showed_mobail{
+            display: none;
+        }
+    }
+}
+@media screen and (max-device-width: 991px){
+    .row_faworits{
+        .head_title{
+            h2{
+                padding-left: 10px !important;
+            }
+        }
+        .fav_main_box{
+            padding: 0 10px !important;
+
+        }
+    }
+    .showed_mobail{
+        display: block !important;
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        .card_boxx{
+            padding: 0 10px;
+            .cardd{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin: 10px 0;
+                background: #FFFFFF;
+                box-shadow: 0px 1px 5px rgba(182, 182, 182, 0.25);
+                border-radius: 8px;
+                .img2{
+                    width: 100%;
+                    .img22{
+                        img{
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                            border-radius: 8px;
+                            height: 190px;
+                        }
+                    }
+                    
+                }
+                .title11{
+                    width: 100%;
+                    padding: 11px 10px 22px 10px;
+                    .star_savat{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .w_65{
+                            width: 80%;
+                            p{
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #490D2A;
+                            }
+                            
+                        }
+                        
+                        .star_icon{
+                            width: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            .centerr{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding-right: 5px;
+                                .shopping{
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                            }
+                            h5{    
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #666666;
+                            }
+                        }
+                    }
+                    .bottom_savat{
+                        margin-top: 10px !important;
+                        width: 100% !important;
+                        display: flex !important;
+                        align-items: center !important;
+                        justify-content: space-between !important;
+                        .w_80{
+                            width: 80%;
+                            h3{
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #490D2A;
+                            }
+                        }
+                        .karzina_icon{
+                            width: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            img{
+                                width: 25px;
+                                height: 25px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media screen and (max-device-width: 767px){
+    .favorits{
+        .row_faworits{
+            justify-content: flex-start;
+            .head_title{
+                margin: 23px 0 15px 0 !important;
+                h2{
+                    font-size: 28px !important;
+                    line-height: 32px !important;
+                }
+            }
+            .fav_main_box{
+                .box_img{
+                    // padding:5px 25px 0 25px !important;
+                    .close_btn{
+                        right: 5px !important;
+                        img{
+                            width: 15px !important;
+                            height: 15px !important;
+
+                        }
+
+                    }
+                }
+                .box_title{
+                    .name_grade{
+                        .w_70{
+                            h3{
+                                font-size: 16px !important;
+                                line-height: 18px !important;
+                                display: -webkit-box !important;
+                                -webkit-line-clamp: 2 !important;
+                                -webkit-box-orient: vertical !important;
+                                overflow: hidden !important;
+                                text-overflow: ellipsis !important;
+                                color: inherit !important;
+                                -webkit-transition: color .2s ease !important;
+                                transition: color .2s ease !important;
+                            }
+                        }
+                        .w_30{
+                            padding-top: 5px;
+                            .star_icon{
+                                img{
+                                    width: 18px !important;
+                                    height: 18px !important;
+                                }
+                            }
+                            .grade{
+                                h4{
+                                    
+                                    font-size: 16px !important;
+                                    line-height: 18px !important;
+                                }
+                            }
+                        }
+                    }
+                    .sum_karzina{
+                        .w_80{
+                            
+                            h3{
+                                font-size: 18px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                        .w_20{
+                            .karzina_icon{
+                                img{
+                                    width: 25px !important;
+                                    height: 25px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .title11{
+        .star_savat{
+        }
+    }
+
+}
+@media screen and (max-device-width:575px) {
+    .favorits{
+        .row_faworits{
+            justify-content: flex-start;
+            .head_title{
+                margin: 23px 0 15px 0 !important;
+                h2{
+                    font-size: 25px !important;
+                    line-height: 32px !important;
+                }
+            }
+            .fav_main_box{
+                .box_img{
+                    .close_btn{
+                        right: 5px !important;
+                        img{
+                            width: 15px !important;
+                            height: 15px !important;
+
+                        }
+
+                    }
+                }
+                .box_title{
+                    .name_grade{
+                        .w_70{
+                            h3{
+                                height: 30px !important;
+                                display: -webkit-box !important;
+                                -webkit-line-clamp: 2 !important;
+                                -webkit-box-orient: vertical !important;
+                                overflow: hidden !important;
+                                text-overflow: ellipsis !important;
+                                font-size: 14px !important;
+                                color: inherit !important;
+                                line-height: 16px !important;
+                                -webkit-transition: color .2s ease !important;
+                                transition: color .2s ease !important;
+                            }
+                        }
+                        .w_30{
+                            padding: 0 !important;
+                            .star_icon{
+                                img{
+                                    width: 18px !important;
+                                    height: 18px !important;
+                                }
+                            }
+                            .grade{
+                                h4{
+                                    
+                                    font-size: 16px !important;
+                                    line-height: 18px !important;
+                                }
+                            }
+                        }
+                    }
+                    .sum_karzina{
+                        .w_80{
+                            h3{
+                                font-size: 16px !important;
+                                line-height: 22px !important;
+                            }
+                        }
+                        .w_20{
+                            .karzina_icon{
+                                img{
+                                    width: 25px !important;
+                                    height: 25px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .title11{
+            .star_savat{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-size: 14px !important;
+                    line-height: 16px !important;
+                }
+                h3{
+                    font-size: 16px !important;
+                    line-height: 22px !important;
+                }
+            }
+            .bottom_savat{
+                .w_80{
+                    h3{
+                        font-size: 16px !important;
+                    }
+                }
+            }
+
+        }
+    }
+}

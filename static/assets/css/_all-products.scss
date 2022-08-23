@@ -1,0 +1,413 @@
+.margee{
+    width: 100%;
+    margin-top: 22px !important;
+    margin-bottom: 40px !important;
+}
+.row_categories{
+    
+    .category_box{
+        padding: 0 8px;
+        margin: 15px 0;
+    }
+    .box_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 6px 0;
+        .box{
+            border: 1px solid #7C797C;
+            border-radius: 10px;
+            padding: 10px 15px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #7C797C;
+            transition: 1s ease all;
+            &:hover{
+                background: #F77F00;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+
+            }
+        }
+        .main_box{
+            color: #fff;
+            background: #F77F00;
+        }
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 8px;
+        .img2{
+            border-radius: 8px 8px 0 0;
+            width: 100%;
+            .img22{
+                img{
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    border-radius: 8px 8px 0 0;
+                }
+            }
+        }
+        .title1{
+            width: 100%;
+            padding: 10px 10px 22px 10px;
+            .star_savat{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .links{
+                    text-decoration: none !important;
+                }
+                .karzina_icon{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    img{
+                        width: 25px;
+                        height: 25px;
+
+                    }
+                    .savatt{
+                        padding-right: 10px;
+                    }
+                }
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #490D2A;
+                }
+                h3{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #490D2A;
+                }
+                .star_icon{
+                    min-width: 10%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .shopping{
+                        width: 18px;
+                        height: 18px;
+                    }
+                    .star_reting{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        padding-left: 5px;
+                        h5{    
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: #666666;
+                        }
+                    } 
+                    .star_class{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                    }
+                }
+            }
+            .bottom_savat{
+                margin-top: 12px;
+                padding: 0 !important;
+            }
+            
+        }
+    }
+
+}
+.row_Catigory{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .category_boxx{
+            width: 100%;
+            .slider_box{
+                padding: 0 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box{
+                    border: 1px solid #7C797C;
+                    border-radius: 10px;
+                    height: 52px;
+                    padding: 8px 10px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #7C797C;
+                    transition: 0.5 ease all;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &:hover{
+                        background: #F77F00;
+                        color: #fff;
+                        border: none;
+                        cursor: pointer;
+
+                    }
+            }
+            .main_box{
+                color: #fff;
+                background: #F77F00;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+            
+
+        }
+}
+
+@media screen and (max-device-width: 991px) {
+.categoriess{
+    .margee{
+        margin-top: 16px !important;
+        margin-bottom: 25px !important;
+    }
+    .row_categories{
+        .category_box{
+            padding: 0 8px;
+            margin: 10px 0 !important;
+        }
+
+
+        // catigotiyalar
+        .card{
+            .title1{
+                padding: 10px 10px 22px 10px;
+                .star_savat{
+                    
+                    .karzina_icon{
+                        img{
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .savatt{
+                            padding-right: 10px;
+                        }
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                    h3{
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    .star_icon{
+                        min-width: 10%;
+                        .shopping{
+                            width: 18px;
+                            height: 18px;
+                        }
+                        .star_reting{
+                            padding-left: 5px;
+                            h5{    
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+                        } 
+                    }
+                }
+                .bottom_savat{
+                    margin-top: 12px;
+                    padding: 0 !important;
+                }
+                
+            }
+        }
+        
+    }
+    .row_Catigory{
+            .category_boxx{
+                .slider_box{
+                    padding: 0 8px !important;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .box{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 46px;
+                    padding: 5px 8px !important;
+                    font-size: 16px;
+                    line-height: 18px;
+                        
+                }
+                .main_box{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+            }
+    }
+}
+}
+@media screen and (max-device-width: 767px) {
+.categoriess{
+    .margee{
+        margin-top: 15px !important;
+        margin-bottom: 5px !important;
+    }
+    .row_categories{
+        .box_content{
+            margin: 5px 0 !important;
+            .box{
+                border: 1px solid #7C797C;
+                padding: 8px 10px !important;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        .category_box{
+            padding: 0 8px;
+            margin: 10px 0 !important;
+        }
+
+
+        .card{
+             .title1{
+                    padding: 10px 10px 22px 10px;
+                    .star_savat{
+                        
+                        .karzina_icon{
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
+                            .savatt{
+                                padding-right: 10px;
+                            }
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+                        h3{
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                        .star_icon{
+                            min-width: 10%;
+                            .shopping{
+                                width: 18px;
+                                height: 18px;
+                            }
+                            .star_reting{
+                                padding-left: 5px;
+                                h5{    
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                }
+                            } 
+                        }
+                    }
+                    .bottom_savat{
+                        margin-top: 12px;
+                        padding: 0 !important;
+                    }
+                    
+            }
+        }
+        
+    }
+}
+// Mobail version
+}
+@media screen and (max-device-width: 575px) {
+    .padding_bottom{
+        padding-bottom: 80px !important;
+    }
+    .row_categories{
+        .box_content{
+            margin: 5px 0 !important;
+            .box{
+                border: 1px solid #7C797C;
+                padding: 8px 10px !important;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        .category_box{
+            padding: 0 8px;
+            margin: 10px 0 !important;
+        }
+
+        .card{
+           .title1{
+                    padding: 10px 10px 22px 10px;
+                    .star_savat{
+                        
+                        .karzina_icon{
+                            img{
+                                width: 25px;
+                                height: 25px;
+                            }
+                            .savatt{
+                                padding-right: 10px;
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                        h3{
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                        .star_icon{
+                            min-width: 10%;
+                            .shopping{
+                                width: 18px;
+                                height: 18px;
+                            }
+                            .star_reting{
+                                padding-left: 5px;
+                                h5{    
+                                    font-size: 16px;
+                                    line-height: 18px;
+                                }
+                            } 
+                        }
+                    }
+                    .bottom_savat{
+                        margin-top: 12px;
+                        padding: 0 !important;
+                    }
+                    
+            } 
+        }
+        
+    }
+}

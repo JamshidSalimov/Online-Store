@@ -1,0 +1,127 @@
+.login_bg{
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    padding: 30px 30px;
+    box-shadow: 0px 1px 5px rgba(62, 62, 62, 0.25);
+    h5{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 100%;
+        color: #141414;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .control-label{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #141414;
+        margin-bottom: 20px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+        .inputss{
+            background: rgb(232, 240, 254);
+            border-radius: 8px;
+            padding: 15px 18px;
+            line-height: 100%;
+            font-size: 16px;
+            height: 48px;
+        }
+    }
+    .login_btn{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        button{
+            background-color: #F77F00;
+            color: #fff;
+            border: none;
+            padding: 3px 30px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    }
+    .send_btnn{
+        margin-bottom: 20px;
+        padding-top: 10px !important;
+    }
+    .login_links{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            text-decoration: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 100%;
+            color: #141414;
+        }
+    }
+    }
+
+@media screen and (max-device-width: 991px) {
+    
+}
+@media screen and (max-device-width:575px) {
+    .login_bg{
+        background-color: #FAFAFA;
+        padding: 30px 15px 20px 15px !important; 
+        h5{
+            font-size: 24px;
+        }
+        .form-group{
+            margin-bottom: 20px;
+            .inputss{
+                background: rgb(232, 240, 254);
+                border-radius: 8px;
+                padding: 10px 15px;
+                line-height: 100%;
+                font-size: 16px;
+                height: 36px;
+            }
+        }    
+        .login_btn{
+            button{
+                border: none;
+                outline: none;
+                background-color: #F77F00;
+                color: #fff;
+                border: none;
+                padding: 3px 30px;
+                border-radius: 8px;
+                font-size: 18px;
+            }
+        }
+        .login_links{
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            flex-direction: column;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #141414;
+                text-align: center !important;
+                
+                
+            }
+            .second_past{
+                padding-top: 12px;
+            }
+        }
+    }
+}

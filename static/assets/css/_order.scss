@@ -1,0 +1,249 @@
+.orders{
+    .categoriess{
+        .headerr{
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        .row_orderss{
+            
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            // border: 1px solid red;
+            .new_product_titlee{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                height: 48px;
+                width: 100%;
+                text-align: start;
+                h4{
+                    font-family: sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: #111443;
+                    // border: 1px solid red;
+                }
+            }
+            .boxx {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                .buttonn{
+                    padding: 8px 36px;
+                    border: 1px solid #F77F00;
+                    border-radius: 5px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #F77F00;
+                }
+            }
+
+        }
+        .form_boxx1{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .input_box{
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 30px;
+                background: #fff;
+                box-shadow: 0px 1px 5px rgba(106, 106, 106, 0.15);
+                border-radius: 10px;
+                margin-top: 30px;
+                margin-bottom: 90px;
+                // main content
+                .form_box{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    .boxcha{
+                        width: 100%;
+                        padding: 10px;
+                        .form_controll{
+                            border: none;
+                            outline: none;
+                            border-bottom: 1px solid #6C6C6C;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 26px;
+                            color: #6C6C6C;
+                            border-radius: 0 !important;
+                            outline: none !important;
+                            padding: 10px !important;
+
+                        }
+                        .inputt{
+                            width: 100%;
+                            border: none;
+                            outline: none;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 26px;
+                            color: #6C6C6C;
+                            padding: 10px 0;
+                            padding-left: 10px;
+                            border-bottom: 1px solid #6C6C6C;
+                        }
+                    
+                    }
+                    .button_heart{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        padding-top: 20px;
+                        .heart_img{
+                            padding-left: 25px;
+                            .btnn_clear{
+                                padding: 10px 15px;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 23px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #FCF6F6;
+                                border: none;
+                                outline: none;
+                                background: #6c757d;;
+                                box-shadow: 0px 2.32px 11.6px rgba(0, 0, 0, 0.25);
+                                border-radius: 5.8px;
+                            }
+
+                        }
+                        .main_btn {
+                            .btnn{
+                                padding: 10px 15px;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 23px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #FCF6F6;
+                                border: none;
+                                outline: none;
+                                background: #F77F00;
+                                box-shadow: 0px 2.32px 11.6px rgba(0, 0, 0, 0.25);
+                                border-radius: 5.8px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-device-width:991px) {
+    .new_product_titlee{
+        height: 42px !important;
+        h4{
+            font-size: 35px !important;
+            line-height: 42px !important;
+        }
+    }
+}
+@media screen and (max-device-width: 767px) {
+    .new_product_titlee{
+        height: 35px !important;
+        h4{
+            font-size: 30px !important;
+            line-height: 35px !important;
+        }
+    }
+    .boxx{
+        padding-top: 20px !important;
+    }
+
+    // main content
+    
+}
+@media screen and (max-device-width: 575px) {
+    .row_orderss{
+        .new_product_titlee{
+            h4{
+                font-size: 25px !important;
+                padding-left: 20px !important;
+            }
+        }
+        .boxx{
+            padding-top: 20px !important;
+            padding-left: 20px !important;
+            .buttonn{
+                padding: 10px 15px !important;
+                font-size: 14px !important;
+                line-height: 16px !important;
+            }
+        }
+        
+    }
+    // main content
+    .categoriess{
+        .form_boxx1{
+            margin-top: 10px !important;
+            margin-bottom: 80px !important;
+            padding: 0 20px;
+            .input_box{
+                padding: 20px !important;
+                
+                .form_box {
+                    .boxcha{
+                        .form_controll{
+                            font-size: 16px !important;
+                            line-height: 20px !important;
+                        }
+                        .inputt{
+                            font-size: 16px !important;
+                            line-height: 20px !important;
+                        }
+                        
+                    }
+                    .button_heart{
+                        justify-content: center !important;
+                        padding-top: 20px !important;
+                        .heart_img{
+                            padding-left: 10px !important;
+                            .btnn_clear{
+                                padding: 8px 8px !important;
+                                font-size: 18px !important;
+                                line-height: 22px !important;
+                                font-weight: 500 !important; 
+                            }
+                        }
+                        .main_btn{
+                            .btnn{
+                                padding: 8px 15px !important;
+                                font-size: 18px !important;
+                                line-height: 22px !important;
+                                font-weight: 500 !important;
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    
+    
+    
+    
+}

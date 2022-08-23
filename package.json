@@ -1,0 +1,36 @@
+{
+  "name": "dona",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/toast": "^3.3.1",
+    "@nuxtjs/yandex-metrika": "^1.4.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.3",
+    "lingallery": "^1.3.7",
+    "nuxt": "^2.2.0",
+    "v-mask": "^2.3.0",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-spinner": "^1.0.4",
+    "vue-template-compiler": "^2.6.14",
+    "vue-yandex-maps": "^0.11.9",
+    "vuelidate": "^0.7.7"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.0.3",
+    "sass": "^1.5.1",
+    "webpack": "^4.0.0"
+  }
+}
